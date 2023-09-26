@@ -103,7 +103,9 @@ public class Agenda extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void SetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SetActionPerformed
-        // TODO add your handling code here:
+        PaginaInicial index = new PaginaInicial();
+        this.setVisible(false);
+        index.setVisible(true);
     }//GEN-LAST:event_SetActionPerformed
 
     /**
